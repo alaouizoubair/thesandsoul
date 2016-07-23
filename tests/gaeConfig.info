@@ -1,0 +1,1 @@
+php artisan gae:setup --config --cache-config --bucket="thesandsoulbt" --db-socket="thesandsoul-1381:thesandsouldb" --db-name="thesandsouldb" --db-host="2001:4860:4864:1:5b37:2f72:8092:8f2c " thesandsoul-1381
