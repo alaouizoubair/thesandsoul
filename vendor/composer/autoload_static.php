@@ -52,6 +52,7 @@ class ComposerStaticInitbf6e57d18bc850cb401cc17e13583715
             'Symfony\\Component\\Console\\' => 26,
             'SuperClosure\\' => 13,
             'Stringy\\' => 8,
+            'Shpasser\\' => 9,
         ),
         'P' => 
         array (
@@ -176,6 +177,10 @@ class ComposerStaticInitbf6e57d18bc850cb401cc17e13583715
         array (
             0 => __DIR__ . '/..' . '/danielstjules/stringy/src',
         ),
+        'Shpasser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser',
+        ),
         'Psy\\' => 
         array (
             0 => __DIR__ . '/..' . '/psy/psysh/src/Psy',
@@ -284,6 +289,7 @@ class ComposerStaticInitbf6e57d18bc850cb401cc17e13583715
         'App\\Http\\Controllers\\Auth\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/AuthController.php',
         'App\\Http\\Controllers\\Auth\\PasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/PasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -2590,6 +2596,24 @@ class ComposerStaticInitbf6e57d18bc850cb401cc17e13583715
         'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/recursion-context/src/InvalidArgumentException.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
         'SessionHandlerInterface' => __DIR__ . '/..' . '/symfony/http-foundation/Resources/stubs/SessionHandlerInterface.php',
+        'Shpasser\\GaeSupportL5\\Filesystem\\GaeAdapter' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Filesystem/GaeAdapter.php',
+        'Shpasser\\GaeSupportL5\\Foundation\\Application' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Foundation/Application.php',
+        'Shpasser\\GaeSupportL5\\GaeArtisanConsoleServiceProvider' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/GaeArtisanConsoleServiceProvider.php',
+        'Shpasser\\GaeSupportL5\\GaeSupportServiceProvider' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/GaeSupportServiceProvider.php',
+        'Shpasser\\GaeSupportL5\\Http\\Controllers\\ArtisanConsoleController' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Http/Controllers/ArtisanConsoleController.php',
+        'Shpasser\\GaeSupportL5\\Mail\\GaeTransportManager' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Mail/GaeTransportManager.php',
+        'Shpasser\\GaeSupportL5\\Mail\\MailServiceProvider' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Mail/MailServiceProvider.php',
+        'Shpasser\\GaeSupportL5\\Mail\\Transport\\GaeTransport' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Mail/Transport/GaeTransport.php',
+        'Shpasser\\GaeSupportL5\\Queue\\GaeConnector' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Queue/GaeConnector.php',
+        'Shpasser\\GaeSupportL5\\Queue\\GaeJob' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Queue/GaeJob.php',
+        'Shpasser\\GaeSupportL5\\Queue\\GaeQueue' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Queue/GaeQueue.php',
+        'Shpasser\\GaeSupportL5\\Queue\\Listener' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Queue/Listener.php',
+        'Shpasser\\GaeSupportL5\\Queue\\QueueServiceProvider' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Queue/QueueServiceProvider.php',
+        'Shpasser\\GaeSupportL5\\Setup\\Configurator' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Setup/Configurator.php',
+        'Shpasser\\GaeSupportL5\\Setup\\IniHelper' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Setup/IniHelper.php',
+        'Shpasser\\GaeSupportL5\\Setup\\SetupCommand' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Setup/SetupCommand.php',
+        'Shpasser\\GaeSupportL5\\Storage\\CacheFs' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Storage/CacheFs.php',
+        'Shpasser\\GaeSupportL5\\Storage\\Optimizer' => __DIR__ . '/..' . '/shpasser/gae-support-l5/src/Shpasser/GaeSupportL5/Storage/Optimizer.php',
         'Stringy\\StaticStringy' => __DIR__ . '/..' . '/danielstjules/stringy/src/StaticStringy.php',
         'Stringy\\Stringy' => __DIR__ . '/..' . '/danielstjules/stringy/src/Stringy.php',
         'SuperClosure\\Analyzer\\AstAnalyzer' => __DIR__ . '/..' . '/jeremeamia/SuperClosure/src/Analyzer/AstAnalyzer.php',

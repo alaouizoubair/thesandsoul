@@ -1,0 +1,85 @@
+html{
+    font-family: Lato;
+    font-weight: 400;
+}
+
+
+md-content.md-default-theme {
+  background-color: #eee;
+}
+
+md-card {
+  background-color: #fff;
+}
+md-card h2:first-of-type {
+  margin-top: 0;
+}
+
+md-toolbar .md-button.md-default-theme {
+  border-radius: 99%;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.md-toolbar-tools-bottom {
+  font-size: small;
+}
+.md-toolbar-tools-bottom :last-child {
+  opacity: 0.8;
+}
+
+md-toolbar:not(.md-hue-1),
+.md-fab {
+  fill: #fff;
+}
+
+md-sidenav {
+  fill: #737373;
+}
+md-sidenav ng-md-icon {
+  position: relative;
+  top: 5px;
+}
+
+.user-avatar {
+  border-radius: 99%;
+}
+
+p.description{
+    text-align: justify;
+    line-height: 120%;
+}
+
+p.toolbar{
+    text-align: center;
+    line-height: 120%;
+}
+
+p.description b{
+
+}
+
+img{
+    width: 100%;
+    margin:5px;
+}
+
+.nb-inscrit{
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.1em;
+}
+
+.objectifs-list{
+  cursor: pointer;
+}
+
+.list-item{
+  font-size: 0.9em;
+}
+
+.material-icons{
+  display: block;
+}
